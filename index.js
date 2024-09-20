@@ -4,7 +4,7 @@ import bodyParser from "body-parser";
 import FlightRoutes from './routes/FlightRoutes.js';
 import ReservationRoutes from './routes/ReservationRoutes.js';
 import cors from 'cors';
-
+import morgan from "morgan";
 const app = express();
 const port = 3003;
 
@@ -24,6 +24,8 @@ app.use(cors({
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
+app.use(morgan('dev'));
+
 
 app.use('/api/reservations', ReservationRoutes);
 app.use('/api/flights', FlightRoutes);

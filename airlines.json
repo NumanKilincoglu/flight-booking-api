@@ -1,0 +1,2001 @@
+[
+    {
+        "iata": "0B",
+        "icao": "BLA",
+        "nvls": 5191,
+        "publicName": "Blue Air"
+    },
+    {
+        "iata": "2F",
+        "icao": "EZZ",
+        "nvls": 5316,
+        "publicName": "ETF Airways"
+    },
+    {
+        "iata": "2L",
+        "icao": "OAW",
+        "nvls": 449,
+        "publicName": "Helvetic"
+    },
+    {
+        "iata": "2N",
+        "icao": "LYX",
+        "nvls": 5259,
+        "publicName": "Smart Lynx Malta"
+    },
+    {
+        "iata": "2W",
+        "icao": "WFL",
+        "nvls": 5309,
+        "publicName": "World2fly"
+    },
+    {
+        "iata": "3O",
+        "icao": "MAC",
+        "nvls": 4891,
+        "publicName": "Air Arabia Maroc"
+    },
+    {
+        "iata": "4M",
+        "icao": "MGH",
+        "nvls": 5310,
+        "publicName": "MGA Airlines"
+    },
+    {
+        "iata": "4U",
+        "icao": "GWI",
+        "nvls": 5005,
+        "publicName": "Germanwings"
+    },
+    {
+        "iata": "4Y",
+        "icao": "BGA",
+        "nvls": 5234,
+        "publicName": "Airbus Transport International"
+    },
+    {
+        "iata": "5F",
+        "icao": "FIA",
+        "nvls": 5291,
+        "publicName": "Flyone"
+    },
+    {
+        "iata": "5K",
+        "icao": "HFY",
+        "nvls": 114,
+        "publicName": "Hi Fly SA"
+    },
+    {
+        "iata": "5M",
+        "icao": "HFM",
+        "nvls": 5192,
+        "publicName": "Hi Fly Ltd"
+    },
+    {
+        "iata": "5O",
+        "icao": "FPO",
+        "nvls": 5082,
+        "publicName": "ASL Airlines France"
+    },
+    {
+        "iata": "5P",
+        "icao": "LLX",
+        "nvls": 5084,
+        "publicName": "Small Planet Airlines"
+    },
+    {
+        "iata": "6B",
+        "icao": "BLX",
+        "nvls": 5135,
+        "publicName": "TUIfly Nordic"
+    },
+    {
+        "iata": "6E",
+        "icao": "IGO",
+        "nvls": 5300,
+        "publicName": "IndiGo"
+    },
+    {
+        "iata": "6H",
+        "icao": "ISR",
+        "nvls": 96,
+        "publicName": "Israir"
+    },
+    {
+        "iata": "6I",
+        "nvls": 5251,
+        "publicName": "Air Alisie A/S"
+    },
+    {
+        "iata": "6K",
+        "icao": "TAH",
+        "nvls": 5321,
+        "publicName": "Air Anka"
+    },
+    {
+        "iata": "6Y",
+        "icao": "ART",
+        "nvls": 5088,
+        "publicName": "SmartLynx Airlines"
+    },
+    {
+        "iata": "7A",
+        "icao": "XRC",
+        "nvls": 5299,
+        "publicName": "Express Air Cargo"
+    },
+    {
+        "iata": "7E",
+        "icao": "AWU",
+        "nvls": 5124,
+        "publicName": "Sylt Air"
+    },
+    {
+        "iata": "7R",
+        "icao": "RLU",
+        "nvls": 5221,
+        "publicName": "Rusline"
+    },
+    {
+        "iata": "7W",
+        "icao": "WRC",
+        "nvls": 4927,
+        "publicName": "Wind Rose Aviation"
+    },
+    {
+        "iata": "8H",
+        "icao": "BGH",
+        "nvls": 232,
+        "publicName": "Balkan Holiday Airlines"
+    },
+    {
+        "iata": "8Q",
+        "icao": "OHY",
+        "nvls": 137,
+        "publicName": "Onur Air"
+    },
+    {
+        "iata": "8R",
+        "icao": "AIA",
+        "nvls": 5286,
+        "publicName": "Amelia"
+    },
+    {
+        "iata": "8W",
+        "icao": "PWF",
+        "nvls": 5231,
+        "publicName": "Private Wings Flugcharter GMBH"
+    },
+    {
+        "iata": "9W",
+        "icao": "JAI",
+        "nvls": 2481,
+        "publicName": "Jet Airways"
+    },
+    {
+        "iata": "A0",
+        "icao": "EFW",
+        "nvls": 5304,
+        "publicName": "BA EuroFlyer"
+    },
+    {
+        "iata": "A3",
+        "icao": "AEE",
+        "nvls": 386,
+        "publicName": "Aegean Airlines"
+    },
+    {
+        "iata": "A5",
+        "icao": "HOP",
+        "nvls": 5021,
+        "publicName": "HOP!"
+    },
+    {
+        "iata": "A9",
+        "icao": "TGZ",
+        "nvls": 16,
+        "publicName": "Georgian Airways"
+    },
+    {
+        "iata": "AA",
+        "icao": "AAL",
+        "nvls": 555,
+        "publicName": "American Airlines"
+    },
+    {
+        "iata": "AC",
+        "icao": "ACA",
+        "nvls": 54,
+        "publicName": "Air Canada"
+    },
+    {
+        "iata": "AD",
+        "icao": "AZU",
+        "nvls": 5211,
+        "publicName": "Azul Linhas Aereas Brasileiras"
+    },
+    {
+        "iata": "AF",
+        "icao": "AFR",
+        "nvls": 80,
+        "publicName": "Air France"
+    },
+    {
+        "iata": "AI",
+        "icao": "AIC",
+        "nvls": 712,
+        "publicName": "Air India"
+    },
+    {
+        "iata": "AM",
+        "icao": "AMX",
+        "nvls": 794,
+        "publicName": "Aeromexico"
+    },
+    {
+        "iata": "AP",
+        "icao": "LAV",
+        "nvls": 4987,
+        "publicName": "Alba Star"
+    },
+    {
+        "iata": "AR",
+        "nvls": 4915,
+        "publicName": "Saudi Aramco Aviation"
+    },
+    {
+        "iata": "AT",
+        "icao": "RAM",
+        "nvls": 145,
+        "publicName": "Royal Air Maroc"
+    },
+    {
+        "iata": "AV",
+        "icao": "AVA",
+        "nvls": 5197,
+        "publicName": "Avianca Cargo"
+    },
+    {
+        "iata": "AY",
+        "icao": "FIN",
+        "nvls": 78,
+        "publicName": "Finnair"
+    },
+    {
+        "iata": "AZ",
+        "icao": "ITY",
+        "nvls": 12,
+        "publicName": "ITA Airways"
+    },
+    {
+        "iata": "B2",
+        "icao": "BRU",
+        "nvls": 504,
+        "publicName": "Belavia"
+    },
+    {
+        "iata": "B6",
+        "icao": "JBU",
+        "nvls": 5308,
+        "publicName": "JetBlue"
+    },
+    {
+        "iata": "BA",
+        "icao": "BAW",
+        "nvls": 31,
+        "publicName": "British Airways"
+    },
+    {
+        "iata": "BE",
+        "icao": "BEE",
+        "nvls": 502,
+        "publicName": "Flybe"
+    },
+    {
+        "iata": "BR",
+        "icao": "EVA",
+        "nvls": 71,
+        "publicName": "EVA Air"
+    },
+    {
+        "iata": "BT",
+        "icao": "BTI",
+        "nvls": 419,
+        "publicName": "AirBaltic"
+    },
+    {
+        "iata": "CD",
+        "icao": "CND",
+        "nvls": 4982,
+        "publicName": "Corendon Dutch Airlines"
+    },
+    {
+        "iata": "CI",
+        "icao": "CAL",
+        "nvls": 44,
+        "publicName": "China Airlines"
+    },
+    {
+        "iata": "CM",
+        "icao": "CMP",
+        "nvls": 1405,
+        "publicName": "COPA Airlines"
+    },
+    {
+        "iata": "CX",
+        "icao": "CPA",
+        "nvls": 4826,
+        "publicName": "Cathay Pacific"
+    },
+    {
+        "iata": "CY",
+        "icao": "CYP",
+        "nvls": 5205,
+        "publicName": "Charlie Airlines Ltd"
+    },
+    {
+        "iata": "CZ",
+        "icao": "CSN",
+        "nvls": 43,
+        "publicName": "China Southern Airlines"
+    },
+    {
+        "iata": "D8",
+        "icao": "NSZ",
+        "nvls": 5081,
+        "publicName": "Norwegian"
+    },
+    {
+        "iata": "DB",
+        "icao": "MLT",
+        "nvls": 5079,
+        "publicName": "Maleth-Aero"
+    },
+    {
+        "iata": "DK",
+        "icao": "VKG",
+        "nvls": 5242,
+        "publicName": "Sunclass Airlines Aps."
+    },
+    {
+        "iata": "DL",
+        "icao": "DAL",
+        "nvls": 58,
+        "publicName": "Delta Air Lines"
+    },
+    {
+        "iata": "DS",
+        "icao": "EZS",
+        "nvls": 74,
+        "publicName": "easyJet Switzerland"
+    },
+    {
+        "iata": "DT",
+        "icao": "DTA",
+        "nvls": 1676,
+        "publicName": "TAAG Angola Airlines"
+    },
+    {
+        "iata": "DY",
+        "icao": "NOZ",
+        "nvls": 532,
+        "publicName": "Norwegian"
+    },
+    {
+        "iata": "EC",
+        "icao": "EJU",
+        "nvls": 5151,
+        "publicName": "easyJet Europe"
+    },
+    {
+        "iata": "EE",
+        "icao": "EST",
+        "nvls": 5275,
+        "publicName": "Xfly"
+    },
+    {
+        "iata": "EI",
+        "icao": "EIN",
+        "nvls": 108,
+        "publicName": "Aer Lingus"
+    },
+    {
+        "iata": "EK",
+        "icao": "UAE",
+        "nvls": 4913,
+        "publicName": "Emirates"
+    },
+    {
+        "iata": "EN",
+        "icao": "DLA",
+        "nvls": 187,
+        "publicName": "Air Dolomiti"
+    },
+    {
+        "iata": "ER",
+        "icao": "SEP",
+        "nvls": 5267,
+        "publicName": "Serene Air"
+    },
+    {
+        "iata": "ET",
+        "icao": "ETH",
+        "nvls": 188,
+        "publicName": "Ethiopian Airlines"
+    },
+    {
+        "iata": "EW",
+        "icao": "EWG",
+        "nvls": 133,
+        "publicName": "Eurowings"
+    },
+    {
+        "iata": "EY",
+        "icao": "ETD",
+        "nvls": 274,
+        "publicName": "Etihad Airways"
+    },
+    {
+        "iata": "F5",
+        "icao": "ATG",
+        "nvls": 5194,
+        "publicName": "ATC"
+    },
+    {
+        "iata": "F6",
+        "icao": "VAW",
+        "nvls": 5288,
+        "publicName": "Fly2Sky"
+    },
+    {
+        "iata": "F7",
+        "icao": "RSY",
+        "nvls": 5204,
+        "publicName": "I Fly"
+    },
+    {
+        "iata": "FB",
+        "icao": "LZB",
+        "nvls": 387,
+        "publicName": "Bulgaria Air"
+    },
+    {
+        "iata": "FH",
+        "icao": "FHY",
+        "nvls": 190,
+        "publicName": "Freebird Airlines"
+    },
+    {
+        "iata": "FI",
+        "icao": "ICE",
+        "nvls": 94,
+        "publicName": "Icelandair"
+    },
+    {
+        "iata": "FR",
+        "icao": "RYR",
+        "nvls": 234,
+        "publicName": "Ryanair"
+    },
+    {
+        "iata": "G3",
+        "icao": "GLO",
+        "nvls": 4918,
+        "publicName": "Gol Transportes Aereos"
+    },
+    {
+        "iata": "GA",
+        "icao": "GIA",
+        "nvls": 85,
+        "publicName": "Garuda Indonesia"
+    },
+    {
+        "iata": "GF",
+        "icao": "GFA",
+        "nvls": 528,
+        "publicName": "Gulf Air"
+    },
+    {
+        "iata": "GM",
+        "icao": "GSW",
+        "nvls": 5093,
+        "publicName": "Germania Flug AG"
+    },
+    {
+        "iata": "GQ",
+        "icao": "SEH",
+        "nvls": 4812,
+        "publicName": "Sky Express"
+    },
+    {
+        "iata": "GS",
+        "icao": "GCR",
+        "nvls": 5203,
+        "publicName": "TianJin Air"
+    },
+    {
+        "iata": "GW",
+        "icao": "GJT",
+        "nvls": 5176,
+        "publicName": "Get Jet Airlines"
+    },
+    {
+        "iata": "H5",
+        "icao": "VJH",
+        "nvls": 5320,
+        "publicName": "VistaJet"
+    },
+    {
+        "iata": "HC",
+        "icao": "HGO",
+        "nvls": 5313,
+        "publicName": "One Air"
+    },
+    {
+        "iata": "HO",
+        "icao": "DKH",
+        "nvls": 5200,
+        "publicName": "Juneyao Airlines"
+    },
+    {
+        "iata": "HV",
+        "icao": "TRA",
+        "nvls": 164,
+        "publicName": "Transavia"
+    },
+    {
+        "iata": "I2",
+        "icao": "IBS",
+        "nvls": 5003,
+        "publicName": "Iberia Express"
+    },
+    {
+        "iata": "IB",
+        "icao": "IBE",
+        "nvls": 92,
+        "publicName": "Iberia"
+    },
+    {
+        "iata": "IR",
+        "icao": "IRA",
+        "nvls": 95,
+        "publicName": "Iranair"
+    },
+    {
+        "iata": "IZ",
+        "icao": "AIZ",
+        "nvls": 30,
+        "publicName": "Arkia"
+    },
+    {
+        "iata": "JO",
+        "icao": "JNK",
+        "nvls": 5213,
+        "publicName": "Jonika"
+    },
+    {
+        "iata": "JP",
+        "icao": "ADR",
+        "nvls": 6,
+        "publicName": "Adria Airways"
+    },
+    {
+        "iata": "JU",
+        "icao": "ASL",
+        "nvls": 98,
+        "publicName": "Air Serbia"
+    },
+    {
+        "iata": "KC",
+        "icao": "KZR",
+        "nvls": 392,
+        "publicName": "Air Astana"
+    },
+    {
+        "iata": "KD",
+        "icao": "WGN",
+        "nvls": 5083,
+        "publicName": "Western Global Airlines"
+    },
+    {
+        "iata": "KE",
+        "icao": "KAL",
+        "nvls": 105,
+        "publicName": "Korean Air"
+    },
+    {
+        "iata": "KK",
+        "icao": "NGN",
+        "nvls": 5296,
+        "publicName": "LEAV Aviation"
+    },
+    {
+        "iata": "KL",
+        "icao": "KLM",
+        "nvls": 100,
+        "publicName": "KLM"
+    },
+    {
+        "iata": "KM",
+        "icao": "KMM",
+        "nvls": 5318,
+        "publicName": "KM Malta Airlines"
+    },
+    {
+        "iata": "KQ",
+        "icao": "KQA",
+        "nvls": 208,
+        "publicName": "Kenya Airways"
+    },
+    {
+        "iata": "KU",
+        "icao": "KAC",
+        "nvls": 106,
+        "publicName": "Kuwait Airways"
+    },
+    {
+        "iata": "LA",
+        "icao": "LAN",
+        "nvls": 2697,
+        "publicName": "Latam Airlines Chile"
+    },
+    {
+        "iata": "LG",
+        "icao": "LGL",
+        "nvls": 365,
+        "publicName": "Luxair SA"
+    },
+    {
+        "iata": "LH",
+        "icao": "DLH",
+        "nvls": 112,
+        "publicName": "Lufthansa"
+    },
+    {
+        "iata": "LO",
+        "icao": "LOT",
+        "nvls": 111,
+        "publicName": "LOT Polish Airlines"
+    },
+    {
+        "iata": "LS",
+        "icao": "EXS",
+        "nvls": 42,
+        "publicName": "Jet2.com"
+    },
+    {
+        "iata": "LX",
+        "icao": "SWR",
+        "nvls": 50,
+        "publicName": "Swiss International Airlines"
+    },
+    {
+        "iata": "LY",
+        "icao": "ELY",
+        "nvls": 66,
+        "publicName": "El Al"
+    },
+    {
+        "iata": "M2",
+        "icao": "MHV",
+        "nvls": 5109,
+        "publicName": "MHS Aviation"
+    },
+    {
+        "iata": "MB",
+        "icao": "MNB",
+        "nvls": 328,
+        "publicName": "MNG Airlines"
+    },
+    {
+        "iata": "ME",
+        "icao": "MEA",
+        "nvls": 2908,
+        "publicName": "Middle East Airlines"
+    },
+    {
+        "iata": "MF",
+        "icao": "CXA",
+        "nvls": 1551,
+        "publicName": "Xiamen Airlines"
+    },
+    {
+        "iata": "MH",
+        "icao": "MAS",
+        "nvls": 5065,
+        "publicName": "Malaysia Airlines Berhad"
+    },
+    {
+        "iata": "MI",
+        "icao": "FHM",
+        "nvls": 5175,
+        "publicName": "Freebird Europe"
+    },
+    {
+        "iata": "MJ",
+        "icao": "MYW",
+        "nvls": 5281,
+        "publicName": "MyWay Airlines"
+    },
+    {
+        "iata": "MK",
+        "icao": "MAU",
+        "nvls": 2867,
+        "publicName": "Air Mauritius"
+    },
+    {
+        "iata": "MS",
+        "icao": "MSR",
+        "nvls": 65,
+        "publicName": "Egypt Air"
+    },
+    {
+        "iata": "MU",
+        "icao": "CES",
+        "nvls": 1294,
+        "publicName": "China Eastern Airlines"
+    },
+    {
+        "iata": "N4",
+        "icao": "NWS",
+        "nvls": 5089,
+        "publicName": "LLC Nord Wind"
+    },
+    {
+        "iata": "NE",
+        "icao": "NMA",
+        "nvls": 5091,
+        "publicName": "Nesma Airlines"
+    },
+    {
+        "iata": "NH",
+        "icao": "ANA",
+        "nvls": 797,
+        "publicName": "All Nippon Airways"
+    },
+    {
+        "iata": "NN",
+        "icao": "MOV",
+        "nvls": 5090,
+        "publicName": "VIM Airlines"
+    },
+    {
+        "iata": "OE",
+        "icao": "LDM",
+        "nvls": 5166,
+        "publicName": "LaudaMotion"
+    },
+    {
+        "iata": "OG",
+        "icao": "FPY",
+        "nvls": 5276,
+        "publicName": "Play"
+    },
+    {
+        "iata": "OK",
+        "icao": "CSA",
+        "nvls": 52,
+        "publicName": "Czech Airlines CSA"
+    },
+    {
+        "iata": "OR",
+        "icao": "TFL",
+        "nvls": 231,
+        "publicName": "TUI fly"
+    },
+    {
+        "iata": "OS",
+        "icao": "AUA",
+        "nvls": 21,
+        "publicName": "Austrian Airlines"
+    },
+    {
+        "iata": "OU",
+        "icao": "CTN",
+        "nvls": 51,
+        "publicName": "Croatia Airlines"
+    },
+    {
+        "iata": "P7",
+        "icao": "LLP",
+        "nvls": 5080,
+        "publicName": "Small Planet Airlines"
+    },
+    {
+        "iata": "PC",
+        "icao": "PGT",
+        "nvls": 139,
+        "publicName": "Pegasus Airlines"
+    },
+    {
+        "iata": "PE",
+        "icao": "PEV",
+        "nvls": 5096,
+        "publicName": "People's Vienna Line"
+    },
+    {
+        "iata": "PK",
+        "icao": "PIA",
+        "nvls": 140,
+        "publicName": "Pakistan Airlines"
+    },
+    {
+        "iata": "PQ",
+        "nvls": 5206,
+        "publicName": "SkyUp Airlines"
+    },
+    {
+        "iata": "PS",
+        "icao": "AUI",
+        "nvls": 175,
+        "publicName": "Ukraine Int. Airlines"
+    },
+    {
+        "iata": "PY",
+        "icao": "SLM",
+        "nvls": 206,
+        "publicName": "Surinam Airways"
+    },
+    {
+        "iata": "QF",
+        "icao": "QFA",
+        "nvls": 205,
+        "publicName": "Qantas Airways"
+    },
+    {
+        "iata": "QR",
+        "icao": "QTR",
+        "nvls": 356,
+        "publicName": "Qatar Airways"
+    },
+    {
+        "iata": "QS",
+        "icao": "TVS",
+        "nvls": 378,
+        "publicName": "SmartWings"
+    },
+    {
+        "iata": "RE",
+        "icao": "GJM",
+        "nvls": 5294,
+        "publicName": "AirHub Airlines Limited"
+    },
+    {
+        "iata": "RH",
+        "icao": "HKC",
+        "nvls": 5317,
+        "publicName": "Hong Kong Air Cargo"
+    },
+    {
+        "iata": "RJ",
+        "icao": "RJA",
+        "nvls": 147,
+        "publicName": "Royal Jordanian Airlines"
+    },
+    {
+        "iata": "RM",
+        "icao": "NGT",
+        "nvls": 5227,
+        "publicName": "Aircompany Armenia LLC"
+    },
+    {
+        "iata": "RO",
+        "icao": "ROT",
+        "nvls": 239,
+        "publicName": "Tarom"
+    },
+    {
+        "iata": "S4",
+        "icao": "RZO",
+        "nvls": 476,
+        "publicName": "Sata International"
+    },
+    {
+        "iata": "SA",
+        "icao": "SAA",
+        "nvls": 149,
+        "publicName": "South African Airways"
+    },
+    {
+        "iata": "SK",
+        "icao": "SAS",
+        "nvls": 150,
+        "publicName": "Scandinavian Airlines"
+    },
+    {
+        "iata": "SL",
+        "icao": "SZS",
+        "nvls": 5287,
+        "publicName": "SAS Connect"
+    },
+    {
+        "iata": "SM",
+        "icao": "MSC",
+        "nvls": 4828,
+        "publicName": "Air Cairo"
+    },
+    {
+        "iata": "SQ",
+        "icao": "SIA",
+        "nvls": 152,
+        "publicName": "Singapore Airlines"
+    },
+    {
+        "iata": "SR",
+        "icao": "SDR",
+        "nvls": 5152,
+        "publicName": "Sundair"
+    },
+    {
+        "iata": "SU",
+        "icao": "AFL",
+        "nvls": 7,
+        "publicName": "Aeroflot"
+    },
+    {
+        "iata": "SV",
+        "icao": "SVA",
+        "nvls": 151,
+        "publicName": "Saudi Arabian Airlines"
+    },
+    {
+        "iata": "T7",
+        "icao": "TJT",
+        "nvls": 5224,
+        "publicName": "TwinJet"
+    },
+    {
+        "iata": "TB",
+        "icao": "JAF",
+        "nvls": 4807,
+        "publicName": "TUI Airlines Belgium"
+    },
+    {
+        "iata": "TG",
+        "icao": "THA",
+        "nvls": 4237,
+        "publicName": "Thai Airways"
+    },
+    {
+        "iata": "TK",
+        "icao": "THY",
+        "nvls": 166,
+        "publicName": "Turkish Airlines"
+    },
+    {
+        "iata": "TO",
+        "icao": "TVF",
+        "nvls": 5048,
+        "publicName": "Transavia France"
+    },
+    {
+        "iata": "TP",
+        "icao": "TAP",
+        "nvls": 163,
+        "publicName": "TAP Air Portugal"
+    },
+    {
+        "iata": "TS",
+        "icao": "TSC",
+        "nvls": 169,
+        "publicName": "Air Transat"
+    },
+    {
+        "iata": "TU",
+        "icao": "TAR",
+        "nvls": 171,
+        "publicName": "Tunisair"
+    },
+    {
+        "iata": "U2",
+        "icao": "EZY",
+        "nvls": 64,
+        "publicName": "easyJet"
+    },
+    {
+        "iata": "U6",
+        "icao": "SVR",
+        "nvls": 4107,
+        "publicName": "Ural Airlines"
+    },
+    {
+        "iata": "UA",
+        "icao": "UAL",
+        "nvls": 40,
+        "publicName": "United Airlines"
+    },
+    {
+        "iata": "UD",
+        "icao": "UBD",
+        "nvls": 5212,
+        "publicName": "UR Airlines"
+    },
+    {
+        "iata": "UF",
+        "icao": "PER",
+        "nvls": 5210,
+        "publicName": "Petroleum Air Services"
+    },
+    {
+        "iata": "UJ",
+        "icao": "LMU",
+        "nvls": 5092,
+        "publicName": "AlMasria Universal Airlines"
+    },
+    {
+        "iata": "UL",
+        "icao": "ALK",
+        "nvls": 5051,
+        "publicName": "SriLankan Airlines"
+    },
+    {
+        "iata": "UU",
+        "icao": "REU",
+        "nvls": 3615,
+        "publicName": "Air Austral"
+    },
+    {
+        "iata": "UX",
+        "icao": "AEA",
+        "nvls": 519,
+        "publicName": "Air Europa"
+    },
+    {
+        "iata": "V3",
+        "icao": "KRP",
+        "nvls": 4894,
+        "publicName": "Carpatair"
+    },
+    {
+        "iata": "V7",
+        "icao": "VOE",
+        "nvls": 5112,
+        "publicName": "Volotea"
+    },
+    {
+        "iata": "VF",
+        "icao": "TKJ",
+        "nvls": 5315,
+        "publicName": "Ajet"
+    },
+    {
+        "iata": "VK",
+        "icao": "FOO",
+        "nvls": 5142,
+        "publicName": "LEVEL"
+    },
+    {
+        "iata": "VN",
+        "icao": "HVN",
+        "nvls": 2328,
+        "publicName": "Vietnam Airlines"
+    },
+    {
+        "iata": "VR",
+        "icao": "TCV",
+        "nvls": 162,
+        "publicName": "Cabo Verde Airlines"
+    },
+    {
+        "iata": "VS",
+        "icao": "VIR",
+        "nvls": 181,
+        "publicName": "Virgin Atlantic"
+    },
+    {
+        "iata": "VY",
+        "icao": "VLG",
+        "nvls": 263,
+        "publicName": "Vueling"
+    },
+    {
+        "iata": "W9",
+        "icao": "WUK",
+        "nvls": 5297,
+        "publicName": "Wizz Air UK"
+    },
+    {
+        "iata": "WA",
+        "icao": "KLC",
+        "nvls": 102,
+        "publicName": "KLM Cityhopper"
+    },
+    {
+        "iata": "WP",
+        "nvls": 5181,
+        "publicName": "Air Antwerp BV"
+    },
+    {
+        "iata": "WS",
+        "icao": "WJA",
+        "nvls": 4701,
+        "publicName": "WestJet"
+    },
+    {
+        "iata": "WW",
+        "icao": "WOW",
+        "nvls": 5020,
+        "publicName": "WOW Air"
+    },
+    {
+        "iata": "WX",
+        "icao": "BCY",
+        "nvls": 267,
+        "publicName": "Cityjet"
+    },
+    {
+        "iata": "WY",
+        "icao": "OMA",
+        "nvls": 3297,
+        "publicName": "Oman Air"
+    },
+    {
+        "iata": "WZ",
+        "icao": "RWZ",
+        "nvls": 5277,
+        "publicName": "Red Wings"
+    },
+    {
+        "iata": "X3",
+        "icao": "TUI",
+        "nvls": 4848,
+        "publicName": "TUI fly"
+    },
+    {
+        "iata": "X7",
+        "icao": "CHG",
+        "nvls": 5199,
+        "publicName": "Challenge Airlines"
+    },
+    {
+        "iata": "X9",
+        "icao": "NVD",
+        "nvls": 5193,
+        "publicName": "Avion Express"
+    },
+    {
+        "iata": "XC",
+        "icao": "CAI",
+        "nvls": 455,
+        "publicName": "Corendon Airlines"
+    },
+    {
+        "iata": "XG",
+        "icao": "SXD",
+        "nvls": 5047,
+        "publicName": "SunExpress Deutschland"
+    },
+    {
+        "iata": "XQ",
+        "icao": "SXS",
+        "nvls": 197,
+        "publicName": "SunExpress"
+    },
+    {
+        "iata": "XR",
+        "icao": "CXI",
+        "nvls": 5099,
+        "publicName": "Corendon Europe Airl"
+    },
+    {
+        "iata": "XZ",
+        "icao": "AEZ",
+        "nvls": 5293,
+        "publicName": "Aeroitalia"
+    },
+    {
+        "iata": "YM",
+        "icao": "MGX",
+        "nvls": 348,
+        "publicName": "Montenegro Airlines"
+    },
+    {
+        "iata": "YW",
+        "icao": "ANE",
+        "nvls": 284,
+        "publicName": "Air Nostrum"
+    },
+    {
+        "iata": "Z4",
+        "icao": "GZQ",
+        "nvls": 5044,
+        "publicName": "Zagrosjet"
+    },
+    {
+        "iata": "ZQ",
+        "icao": "GER",
+        "nvls": 5238,
+        "publicName": "German Airways"
+    },
+    {
+        "iata": "ZT",
+        "icao": "AWC",
+        "nvls": 172,
+        "publicName": "Titan Airways Ltd"
+    },
+    {
+        "nvls": 179,
+        "publicName": "United Airlines"
+    },
+    {
+        "icao": "BFD",
+        "nvls": 5107,
+        "publicName": "Bertelsmann"
+    },
+    {
+        "icao": "BJN",
+        "nvls": 5182,
+        "publicName": "Beijing Airlines"
+    },
+    {
+        "icao": "BOH",
+        "nvls": 5165,
+        "publicName": "Air Bohemia"
+    },
+    {
+        "icao": "BZE",
+        "nvls": 5123,
+        "publicName": "Zenith Aviation"
+    },
+    {
+        "icao": "CIG",
+        "nvls": 5186,
+        "publicName": "Sirius Aero"
+    },
+    {
+        "icao": "CMB",
+        "nvls": 5153,
+        "publicName": "US Transportation Command"
+    },
+    {
+        "icao": "CNV",
+        "nvls": 5156,
+        "publicName": "US Navy Reserve Logistics Air Forces"
+    },
+    {
+        "icao": "DFC",
+        "nvls": 5125,
+        "publicName": "Aeropartner"
+    },
+    {
+        "icao": "EDG",
+        "nvls": 5145,
+        "publicName": "Jet Edge"
+    },
+    {
+        "icao": "EES",
+        "nvls": 5121,
+        "publicName": "Europe Executive Jet Services"
+    },
+    {
+        "icao": "EGW",
+        "nvls": 5229,
+        "publicName": "EGO AIRWAYS"
+    },
+    {
+        "icao": "ELJ",
+        "nvls": 5284,
+        "publicName": "Elite Jet s.r.o."
+    },
+    {
+        "icao": "EVL",
+        "nvls": 5144,
+        "publicName": "Evolem Aviation"
+    },
+    {
+        "icao": "FFD",
+        "nvls": 5097,
+        "publicName": "Stuttgarter Flugdienst"
+    },
+    {
+        "icao": "FJO",
+        "nvls": 5274,
+        "publicName": "Flexjet"
+    },
+    {
+        "icao": "FNK",
+        "nvls": 5243,
+        "publicName": "IAS"
+    },
+    {
+        "icao": "FFD",
+        "nvls": 5097,
+        "publicName": "Stuttgarter Flugdienst"
+    },
+    {
+        "icao": "FJO",
+        "nvls": 5274,
+        "publicName": "Flexjet"
+    },
+    {
+        "icao": "FNK",
+        "nvls": 5243,
+        "publicName": "IAS"
+    },
+    {
+        "icao": "FOR",
+        "nvls": 5265,
+        "publicName": "Formula One Management"
+    },
+    {
+        "icao": "FRV",
+        "nvls": 5106,
+        "publicName": "Royal Moroccan Air Force"
+    },
+    {
+        "icao": "FSE",
+        "nvls": 5244,
+        "publicName": "Alpine Flight Service"
+    },
+    {
+        "icao": "FSF",
+        "nvls": 5247,
+        "publicName": "Global Airlift Solutions AG"
+    },
+    {
+        "icao": "HST",
+        "nvls": 5261,
+        "publicName": "Heston Airlines, UAB"
+    },
+    {
+        "icao": "HUF",
+        "nvls": 5178,
+        "publicName": "Hungarian Air Force"
+    },
+    {
+        "icao": "HYP",
+        "nvls": 5149,
+        "publicName": "Hyperion Aviation"
+    },
+    {
+        "icao": "IAM",
+        "nvls": 5140,
+        "publicName": "Aeronautica Militare Italiana"
+    },
+    {
+        "icao": "IBG",
+        "nvls": 5094,
+        "publicName": "Springfield Air"
+    },
+    {
+        "icao": "IBJ",
+        "nvls": 5163,
+        "publicName": "Air Taxi and Charter International"
+    },
+    {
+        "icao": "FXT",
+        "nvls": 5184,
+        "publicName": "Flexflight"
+    },
+    {
+        "icao": "FYL",
+        "nvls": 5108,
+        "publicName": "Flying Group Luxembourg"
+    },
+    {
+        "icao": "GAG",
+        "nvls": 5137,
+        "publicName": "Greybird Pilot Academy"
+    },
+    {
+        "icao": "GAJ",
+        "nvls": 5126,
+        "publicName": "Gama Charters"
+    },
+    {
+        "icao": "GCK",
+        "nvls": 5171,
+        "publicName": "Glock Aviation"
+    },
+    {
+        "icao": "GEL",
+        "nvls": 5253,
+        "publicName": "Aircompany Geo-Sky"
+    },
+    {
+        "icao": "HHN",
+        "nvls": 5110,
+        "publicName": "Hahn Air-Lines"
+    },
+    {
+        "icao": "HLY",
+        "nvls": 5273,
+        "publicName": "Heli Air LTD"
+    },
+    {
+        "icao": "HMJ",
+        "nvls": 5256,
+        "publicName": "Harmony Jets"
+    },
+    {
+        "icao": "GJE",
+        "nvls": 5122,
+        "publicName": "Global Air Charters"
+    },
+    {
+        "icao": "GJI",
+        "nvls": 5115,
+        "publicName": "Gainjet Ireland"
+    },
+    {
+        "icao": "GKY",
+        "nvls": 5272,
+        "publicName": "Gama Aviation"
+    },
+    {
+        "icao": "GNJ",
+        "nvls": 5127,
+        "publicName": "Gainjet Aviation Greece"
+    },
+    {
+        "icao": "CIG",
+        "nvls": 5186,
+        "publicName": "Sirius Aero"
+    },
+    {
+        "icao": "CMB",
+        "nvls": 5153,
+        "publicName": "US Transportation Command"
+    },
+    {
+        "icao": "CNV",
+        "nvls": 5156,
+        "publicName": "US Navy Reserve Logistics Air Forces"
+    },
+    {
+        "icao": "DFC",
+        "nvls": 5125,
+        "publicName": "Aeropartner"
+    },
+    {
+        "icao": "JSH",
+        "nvls": 5240,
+        "publicName": "Jet-Stream 2004"
+    },
+    {
+        "icao": "JSM",
+        "nvls": 5202,
+        "publicName": "Jetstream international UK"
+    },
+    {
+        "icao": "JSY",
+        "nvls": 5174,
+        "publicName": "Jung Sky"
+    },
+    {
+        "icao": "KAI",
+        "nvls": 5095,
+        "publicName": "Kaiser Air"
+    },
+    {
+        "icao": "KAY",
+        "nvls": 5188,
+        "publicName": "K5-Aviation"
+    },
+    {
+        "icao": "KBD",
+        "nvls": 5114,
+        "publicName": "JetKey"
+    },
+    {
+        "icao": "KFE",
+        "nvls": 5139,
+        "publicName": "SkyFirst"
+    },
+    {
+        "icao": "KKK",
+        "nvls": 5061,
+        "publicName": "Atlasglobal"
+    },
+    {
+        "icao": "KLJ",
+        "nvls": 5232,
+        "publicName": "UAB Klasjet"
+    },
+    {
+        "icao": "LHB",
+        "nvls": 5104,
+        "publicName": "Liebherr Geschaeftsreiseflugzeug GBR"
+    },
+    {
+        "icao": "LLT",
+        "nvls": 5183,
+        "publicName": "Classic Jet"
+    },
+    {
+        "icao": "LRQ",
+        "nvls": 5154,
+        "publicName": "Luxembourg Air Ambulance"
+    },
+    {
+        "icao": "LTC",
+        "nvls": 5160,
+        "publicName": "Charter Jets"
+    },
+    {
+        "icao": "LWG",
+        "nvls": 5131,
+        "publicName": "Luxwing"
+    },
+    {
+        "icao": "LXG",
+        "nvls": 5119,
+        "publicName": "Luxaviation Germany"
+    },
+    {
+        "icao": "LXJ",
+        "nvls": 5218,
+        "publicName": "Flexjet"
+    },
+    {
+        "icao": "MCK",
+        "nvls": 5248,
+        "publicName": "Aeroways"
+    },
+    {
+        "icao": "JBC",
+        "nvls": 5101,
+        "publicName": "JetBee"
+    },
+    {
+        "icao": "JDI",
+        "nvls": 5148,
+        "publicName": "Jet Story"
+    },
+    {
+        "icao": "JEI",
+        "nvls": 5103,
+        "publicName": "Jet Executive International"
+    },
+    {
+        "icao": "JKH",
+        "nvls": 5159,
+        "publicName": "JetKontor"
+    },
+    {
+        "icao": "JME",
+        "nvls": 5150,
+        "publicName": "EJME Aircraft Management"
+    },
+    {
+        "icao": "JMK",
+        "nvls": 5105,
+        "publicName": "JetMagic"
+    },
+    {
+        "icao": "KOC",
+        "nvls": 5185,
+        "publicName": "Setair"
+    },
+    {
+        "icao": "LDX",
+        "nvls": 5111,
+        "publicName": "LaudaMotion Executive"
+    },
+    {
+        "icao": "MGO",
+        "nvls": 5266,
+        "publicName": "Mango"
+    },
+    {
+        "icao": "MJT",
+        "nvls": 5169,
+        "publicName": "MadJet Executive Aviation"
+    },
+    {
+        "icao": "MMF",
+        "nvls": 5228,
+        "publicName": "MULTINATIONAL MRTT FLEET"
+    },
+    {
+        "icao": "NTF",
+        "nvls": 5133,
+        "publicName": "Piper OK"
+    },
+    {
+        "icao": "NYX",
+        "nvls": 5225,
+        "publicName": "NyxAir"
+    },
+    {
+        "icao": "MYX",
+        "nvls": 5100,
+        "publicName": "Smart Lynx Estonia"
+    },
+    {
+        "icao": "NJU",
+        "nvls": 5307,
+        "publicName": "Netjets Air Transport UK"
+    },
+    {
+        "icao": "SJE",
+        "nvls": 5157,
+        "publicName": "Sun Air Jets"
+    },
+    {
+        "icao": "SJT",
+        "nvls": 5167,
+        "publicName": "Swiss Jet"
+    },
+    {
+        "icao": "SRK",
+        "nvls": 4030,
+        "publicName": "EATIS"
+    },
+    {
+        "icao": "SSZ",
+        "nvls": 5118,
+        "publicName": "Specsavers Aviation"
+    },
+    {
+        "icao": "SXI",
+        "nvls": 5303,
+        "publicName": "SXI"
+    },
+    {
+        "icao": "SYG",
+        "nvls": 5116,
+        "publicName": "Synergy Aviation"
+    },
+    {
+        "icao": "TBJ",
+        "nvls": 5168,
+        "publicName": "TAG Aviation Asia"
+    },
+    {
+        "icao": "PRG",
+        "nvls": 5258,
+        "publicName": "Air Prague"
+    },
+    {
+        "icao": "PTA",
+        "nvls": 5264,
+        "publicName": "Pontair"
+    },
+    {
+        "icao": "PVD",
+        "nvls": 5223,
+        "publicName": "Pad Aviation Services"
+    },
+    {
+        "icao": "PVJ",
+        "nvls": 5143,
+        "publicName": "Privajet"
+    },
+    {
+        "icao": "PWY",
+        "nvls": 5113,
+        "publicName": "Privateways Luftfahrtgesellschaft"
+    },
+    {
+        "icao": "TJD",
+        "nvls": 5249,
+        "publicName": "Topjet Executive"
+    },
+    {
+        "icao": "TLJ",
+        "nvls": 5292,
+        "publicName": "Thalair"
+    },
+    {
+        "icao": "SAY",
+        "nvls": 5179,
+        "publicName": "Sky Gates Airlines"
+    },
+    {
+        "icao": "SDE",
+        "nvls": 5170,
+        "publicName": "Air Partners Corp"
+    },
+    {
+        "icao": "OES",
+        "nvls": 5177,
+        "publicName": "Art Aviation"
+    },
+    {
+        "icao": "OTF",
+        "nvls": 5136,
+        "publicName": "Orange2fly Airlines, SA"
+    },
+    {
+        "icao": "PBR",
+        "nvls": 5134,
+        "publicName": "Fast Air"
+    },
+    {
+        "icao": "PDY",
+        "nvls": 5189,
+        "publicName": "Pen-Avia"
+    },
+    {
+        "icao": "REV",
+        "nvls": 5230,
+        "publicName": "RVL Aviation"
+    },
+    {
+        "icao": "RHH",
+        "nvls": 5260,
+        "publicName": "Red Star Aviation"
+    },
+    {
+        "icao": "RHK",
+        "nvls": 5173,
+        "publicName": "Concierge Aviation"
+    },
+    {
+        "icao": "RKS",
+        "nvls": 5172,
+        "publicName": "Phenix Jet"
+    },
+    {
+        "nvls": 5305,
+        "publicName": "Necamco B.V."
+    },
+    {
+        "nvls": 5216,
+        "publicName": "Turkish Cargo"
+    },
+    {
+        "nvls": 5217,
+        "publicName": "SKYPLAN SERVICES FZCO"
+    },
+    {
+        "nvls": 5282,
+        "publicName": "Air Canada"
+    },
+    {
+        "nvls": 5207,
+        "publicName": "Cargo Air Chartering"
+    },
+    {
+        "nvls": 5208,
+        "publicName": "Acces Flight Support"
+    },
+    {
+        "nvls": 5064,
+        "publicName": "Malaysia Airlines"
+    },
+    {
+        "nvls": 5076,
+        "publicName": "Stecker Ltd"
+    },
+    {
+        "nvls": 5085,
+        "publicName": "Network Airline Management"
+    },
+    {
+        "nvls": 5086,
+        "publicName": "AerCap Ireland Ltd."
+    },
+    {
+        "nvls": 5098,
+        "publicName": "World Fuel Services Corporative Aviation Supprt SV"
+    },
+    {
+        "nvls": 5129,
+        "publicName": "Jet Aviation Netherlands B.V."
+    },
+    {
+        "nvls": 5130,
+        "publicName": "Jet Aviation Netherlands B.V."
+    },
+    {
+        "nvls": 5132,
+        "publicName": "Sand Air"
+    },
+    {
+        "nvls": 5190,
+        "publicName": "Link"
+    },
+    {
+        "nvls": 5195,
+        "publicName": "Aurora Aviation S.A."
+    },
+    {
+        "nvls": 5196,
+        "publicName": "AEG"
+    },
+    {
+        "nvls": 5201,
+        "publicName": "World Fuel Services England"
+    },
+    {
+        "nvls": 5209,
+        "publicName": "Click Aviation Network"
+    },
+    {
+        "nvls": 5219,
+        "publicName": "UAS International Trip Support"
+    },
+    {
+        "nvls": 5220,
+        "publicName": "DAT LT UAB"
+    },
+    {
+        "nvls": 5222,
+        "publicName": "SUCCESS AVIATION SERVICES FZCO"
+    },
+    {
+        "nvls": 5226,
+        "publicName": "Eurojet Intercontinental Limited"
+    },
+    {
+        "nvls": 5236,
+        "publicName": "IJet Global DMCC"
+    },
+    {
+        "nvls": 5239,
+        "publicName": "KLM Luchtvaartschool BV"
+    },
+    {
+        "nvls": 5241,
+        "publicName": "European Aviation Limited"
+    },
+    {
+        "nvls": 5245,
+        "publicName": "Embassy of India"
+    },
+    {
+        "nvls": 5246,
+        "publicName": "Ministerie van Def (FABK)"
+    },
+    {
+        "nvls": 5250,
+        "publicName": "Avialink B.V."
+    },
+    {
+        "nvls": 5252,
+        "publicName": "Jet Support"
+    },
+    {
+        "nvls": 5254,
+        "publicName": "Airline Service Agent"
+    },
+    {
+        "nvls": 5255,
+        "publicName": "Global Jet Limited"
+    },
+    {
+        "nvls": 5262,
+        "publicName": "BOEING DIGITAL SOLUTIONS"
+    },
+    {
+        "nvls": 5263,
+        "publicName": "SpringJet SA"
+    },
+    {
+        "nvls": 5269,
+        "publicName": "HeliCentre Lelystad"
+    },
+    {
+        "nvls": 5271,
+        "publicName": "KUB Air Cargo"
+    },
+    {
+        "nvls": 5279,
+        "publicName": "airseven"
+    },
+    {
+        "nvls": 5290,
+        "publicName": "UNIVERSAL TRANSLINK"
+    },
+    {
+        "nvls": 5295,
+        "publicName": "GRA"
+    },
+    {
+        "nvls": 5301,
+        "publicName": "ASM"
+    },
+    {
+        "nvls": 5311,
+        "publicName": "WFS"
+    },
+    {
+        "nvls": 5314,
+        "publicName": "WFS"
+    },
+    {
+        "icao": "VDR",
+        "nvls": 5161,
+        "publicName": "Voldirect"
+    },
+    {
+        "icao": "VJT",
+        "nvls": 5102,
+        "publicName": "VistaJet"
+    },
+    {
+        "icao": "VLJ",
+        "nvls": 5162,
+        "publicName": "VallJet Le Baule Aviation"
+    },
+    {
+        "icao": "VND",
+        "nvls": 5187,
+        "publicName": "Avionord"
+    },
+    {
+        "icao": "VTB",
+        "nvls": 5289,
+        "publicName": "Jet Stream Charter LTD"
+    },
+    {
+        "icao": "WWI",
+        "nvls": 5146,
+        "publicName": "Worldwide Jet Charter"
+    },
+    {
+        "icao": "XCH",
+        "nvls": 5180,
+        "publicName": "Jet Exchange"
+    },
+    {
+        "icao": "XJC",
+        "nvls": 5120,
+        "publicName": "Xclusive Jet Charter"
+    },
+    {
+        "icao": "XRO",
+        "nvls": 5077,
+        "publicName": "EXXAERO INTERNATIONAL"
+    },
+    {
+        "icao": "TWY",
+        "nvls": 5117,
+        "publicName": "Sunset Aviation"
+    },
+    {
+        "icao": "UEE",
+        "nvls": 5280,
+        "publicName": "United Eagle"
+    },
+    {
+        "icao": "VXS",
+        "nvls": 5270,
+        "publicName": "Voluxis"
+    },
+    {
+        "icao": "WJT",
+        "nvls": 5078,
+        "publicName": "Wijet"
+    },
+    {
+        "icao": "ULC",
+        "nvls": 5147,
+        "publicName": "Albinati Aviation"
+    },
+    {
+        "icao": "VAJ",
+        "nvls": 5283,
+        "publicName": "Avcon Jet San Marino"
+    },
+    {
+        "icao": "VBA",
+        "nvls": 5158,
+        "publicName": "AVB 2012"
+    },
+    {
+        "icao": "VBB",
+        "nvls": 5257,
+        "publicName": "ALK"
+    },
+    {
+        "icao": "VCG",
+        "nvls": 5138,
+        "publicName": "Fly Vectra"
+    },
+    {
+        "icao": "VCJ",
+        "nvls": 5164,
+        "publicName": "Avcon Jet Malta"
+    },
+    {
+        "nvls": 5214,
+        "publicName": "Jetex FZE"
+    },
+    {
+        "nvls": 5323,
+        "publicName": "Fly Dynamics Flight Support"
+    }
+]

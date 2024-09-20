@@ -1,7 +1,8 @@
 import express from 'express';
 const router = express.Router();
+import Reservation from '../models/ReservationModel.js';
 
-router.post('/', async (req, res) => {
+router.post('/book', async (req, res) => {
     try {
         const newReservation = new Reservation(req.body);
         const savedReservation = await newReservation.save();
