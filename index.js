@@ -13,18 +13,19 @@ const app = express();
 const port = 3003;
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'https://flight-booking-app-wa3s.onrender.com/'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
 app.use(morgan('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/api/reservation', ReservationRoutes);
 app.use('/api/flights', FlightRoutes);
 
-connectToDatabase();
+
 app.listen(port, () => {
+    connectToDatabase();
     console.log(`Listening on port ${port}`)
 })

@@ -3,6 +3,8 @@ const router = express.Router();
 import axios from 'axios'
 import fs from 'fs';
 import { dateConvert } from '../utils/DateConvert.js';
+import dotenv from 'dotenv';
+dotenv.config()
 
 export const fetchAllDestinations = async () => {
   let page = 480;
@@ -42,7 +44,7 @@ export const fetchAllDestinations = async () => {
 
         fs.writeFileSync('all_destinations.json', JSON.stringify(combinedResults, null, 2));
         console.log(`Saved page ${page} results to all_destinations.json`);
-        
+
         allResults = [];
         await sleep(1000);
       }
@@ -224,9 +226,9 @@ router.get("/search", async (req, res) => {
     const response = await axios.get(baseURL, {
       headers: {
         'Accept': 'application/json',
-        'app_id': 'f152d8e0',
-        'app_key': '8738d27123ddf3fa810a8c084cc35583',
-        'ResourceVersion': 'v4'
+        'app_id': process.env.APP_ID,
+        'app_key': process.env.KEY,
+        'ResourceVersion': process.env.RESOURCE_VERSION
       },
       params: params,
     });
