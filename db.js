@@ -7,7 +7,6 @@ const uri = process.env.MONGO_URL;
 async function connectToDatabase() {
     try {
         return mongoose.connect(uri, {
-            useNewUrlParser: true,
             useUnifiedTopology: true
         }).then(() => {
             console.log('MongoDB bağlantısı başarılı');
