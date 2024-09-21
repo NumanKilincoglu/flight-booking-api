@@ -1,46 +1,61 @@
+import mongoose, { Schema } from "mongoose";
 
-import mongoose from "mongoose";
-
-const reservationSchema = new mongoose.Schema({
-    userId: {
-        type: mongoose.Schema.Types.ObjectId,
-        required: true,
-        ref: 'User'
+const ReservationSchema = new Schema({
+    lastUpdatedAt: { type: String },
+    actualLandingTime: { type: String },
+    actualOffBlockTime: { type: String },
+    aircraftRegistration: { type: String },
+    aircraftType: {
+        iataMain: { type: String },
+        iataSub: { type: String }
     },
-    flightNumber: {
-        type: String,
-        required: true
+    baggageClaim: {
+        belts: [{ type: String }]
     },
-    departure: {
-        type: String,
-        required: true
+    codeshares: {
+        codeshares: [{ type: String }]
     },
-    destination: {
-        type: String,
-        required: true
+    estimatedLandingTime: { type: String },
+    expectedTimeBoarding: { type: String },
+    expectedTimeGateClosing: { type: String },
+    expectedTimeGateOpen: { type: String },
+    expectedTimeOnBelt: { type: String },
+    expectedSecurityFilter: { type: String },
+    flightDirection: { type: String },
+    flightName: { type: String },
+    flightNumber: { type: Number },
+    gate: { type: String },
+    pier: { type: String },
+    id: { type: String, unique: true },
+    farePrice: { type: Number, required: true },
+    farePackage: { type: Array },
+    tripType: { type: String },
+    departureCode: { type: String },
+    isOperationalFlight: { type: Boolean },
+    mainFlight: { type: String },
+    prefixIATA: { type: String },
+    prefixICAO: { type: String },
+    airlineCode: { type: Number },
+    publicEstimatedOffBlockTime: { type: String },
+    publicFlightState: {
+        flightStates: [{ type: String }]
     },
-    departureTime: {
-        type: Date,
-        required: true
+    route: {
+        destinations: [{ type: String }],
+        eu: { type: String },
+        visa: { type: Boolean }
     },
-    arrivalTime: {
-        type: Date,
-        required: true
+    scheduleDateTime: { type: String },
+    scheduleDate: { type: String },
+    scheduleTime: { type: String },
+    serviceType: { type: String },
+    terminal: { type: Number },
+    transferPositions: {
+        transferPositions: [{ type: Number }]
     },
-    price: {
-        type: Number,
-        required: true
-    },
-    travelClass: {
-        type: String,
-        required: true,
-        enum: ['Economy', 'Business', 'First']
-    },
-    createdAt: {
-        type: Date,
-        default: Date.now
-    }
+    schemaVersion: { type: String }
 });
 
-const Reservation = mongoose.model('Flight', reservationSchema);
+const Reservation = mongoose.model('Reservation', ReservationSchema);
+
 export default Reservation;

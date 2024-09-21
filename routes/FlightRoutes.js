@@ -199,19 +199,22 @@ router.get("/airlines", async (req, res) => {
 router.get("/search", async (req, res) => {
   try {
 
-    const { from, to, depart, arrival, iataCode } = req.query;
+    const { from, to, depart, arrival, iataCode, sortBy, page } = req.query;
 
     let baseURL = 'https://api.schiphol.nl/public-flights/flights';
 
     const params = {
-      flightDirection: 'A',
+      flightDirection: 'D',
       includedelays: false,
-      page: 0,
-      sort: '-scheduleDate',
+      page: page,
     };
 
     if (to) {
       params.route = to;
+    }
+
+    if (sortBy) {
+      params.sort = '-' + sortBy;
     }
 
     if (depart) {
@@ -236,11 +239,35 @@ router.get("/search", async (req, res) => {
       params: params,
     });
 
-    if (response?.data?.flights?.length == 0) return res.status(201).send({ success: true, flights: [] });
+    if (!response.data.flights || response?.data?.flights?.length == 0) return res.status(201).send({ success: true, flights: [] });
 
-    res.status(201).send({ success: true, flights: response.data.flights });
+    const packageNames = ['Light', 'Flex', 'Comfort', 'Plus', 'Premium+'];
+    const tripTypes = ['One Way', 'Round Trip'];
+
+    const newFlights = response.data.flights.map(flight => {
+      const farePrice = Math.floor(Math.random() * 201) + 100;
+
+      const randomPackageIndex = Math.floor(Math.random() * packageNames.length);
+      const selectedPackage = {
+        packageName: packageNames[randomPackageIndex],
+        price: farePrice
+      };
+
+      const randomTripTypeIndex = Math.floor(Math.random() * tripTypes.length);
+      const selectedTripType = tripTypes[randomTripTypeIndex];
+
+      return {
+        ...flight,
+        farePrice,
+        departureCode: params.flightDirection == 'D' ? 'AMS' : to,
+        tripType: selectedTripType,
+        farePackage: [selectedPackage]
+      };
+    });
+
+    res.status(201).send({ success: true, flights: newFlights });
   } catch (err) {
-    console.log(err?.response?.data)
+    console.log(err)
     res.status(400).json({ success: false, error: "Flight not found.", details: err?.details?.message });
   }
 });

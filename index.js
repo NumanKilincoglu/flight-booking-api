@@ -1,23 +1,16 @@
 import express from "express";
-import mongoose from "mongoose";
+
 import bodyParser from "body-parser";
 import FlightRoutes from './routes/FlightRoutes.js';
 import ReservationRoutes from './routes/ReservationRoutes.js';
 import cors from 'cors';
 import morgan from "morgan";
+import dotenv from 'dotenv';
+import { connectToDatabase } from "./db.js";
+
+dotenv.config();
 const app = express();
 const port = 3003;
-
-const uri = 'mongodb+srv://flight-booking-app:xzPDbHST8lLIflp2@flight-booking-app.poqkk.mongodb.net/?retryWrites=true&w=majority&appName=flight-booking-app'
-
-mongoose.connect(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-}).then(() => {
-    console.log('MongoDB bağlantısı başarılı');
-}).catch((err) => {
-    console.error('MongoDB bağlantı hatası:', err);
-});
 
 app.use(cors({
     origin: 'http://localhost:3000',
@@ -25,14 +18,13 @@ app.use(cors({
     credentials: true
 }));
 app.use(morgan('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
-
-app.use('/api/reservations', ReservationRoutes);
+app.use('/api/reservation', ReservationRoutes);
 app.use('/api/flights', FlightRoutes);
 
-app.use(express.json());
-app.use(bodyParser.json())
-
+connectToDatabase();
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
 })
