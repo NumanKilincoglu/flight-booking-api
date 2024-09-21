@@ -1,7 +1,7 @@
 import express from 'express';
 const router = express.Router();
 import Reservation from '../models/ReservationModel.js';
-import mongoose from "mongoose";
+import fs from 'fs';
 
 router.post('/book', async (req, res) => {
     try {
@@ -27,13 +27,34 @@ router.get("/all", async (req, res) => {
         const limitNum = parseInt(limit);
         const skip = (pageNum - 1) * limitNum;
 
-        const flights = await Reservation
+        let flights = await Reservation
             .find({})
             .sort(sortObject)
             .skip(skip)
             .limit(limitNum)
+            .lean();
 
         const totalReservations = await Reservation.countDocuments();
+
+        if (!flights || flights.length == 0) return res.status(400).json({
+            success: false,
+            error: "Flight not found.",
+            details: err?.message || err
+        });
+
+        if (fs.existsSync('airlines.json')) {
+            const fileData = fs.readFileSync('airlines.json', 'utf-8');
+            const data = JSON.parse(fileData);
+
+            flights.forEach(e => {
+                const airline = data.filter(el => e.prefixIATA === el.iata);
+                if (airline.length > 0) {
+                    e.airlineName = airline[0].publicName;
+                } else {
+                    e.airlineName = 'Unknown';
+                }
+            });
+        }
 
         res.status(200).json({
             success: true,
@@ -41,7 +62,7 @@ router.get("/all", async (req, res) => {
             totalPages: Math.ceil(totalReservations / limitNum),
             currentPage: pageNum,
         });
-        
+
     } catch (err) {
         console.log(err)
         res.status(400).json({

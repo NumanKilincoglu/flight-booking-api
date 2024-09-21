@@ -33,25 +33,19 @@ export const fetchAllDestinations = async () => {
       if (page % 10 === 0) {
         let previousData = [];
 
-        // Eğer dosya varsa önceki veriyi oku ve önceki verilerle birleştir
         if (fs.existsSync('all_destinations.json')) {
           const fileData = fs.readFileSync('all_destinations.json', 'utf-8');
           previousData = JSON.parse(fileData);
         }
 
-        // Yeni verilerle önceki verileri birleştir
         const combinedResults = previousData.concat(allResults);
 
-        // Dosyaya yeni verileri yaz
         fs.writeFileSync('all_destinations.json', JSON.stringify(combinedResults, null, 2));
         console.log(`Saved page ${page} results to all_destinations.json`);
-
-        // allResults listesini temizle
+        
         allResults = [];
         await sleep(1000);
       }
-
-
 
       if (destinations.length === 0) {
         hasMorePages = false;
@@ -126,8 +120,6 @@ export const fetchAllAirlines = async () => {
 
 };
 
-const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
 router.get("/destinations", async (req, res) => {
   try {
 
@@ -199,7 +191,7 @@ router.get("/airlines", async (req, res) => {
 router.get("/search", async (req, res) => {
   try {
 
-    const { from, to, depart, arrival, iataCode, sortBy, page } = req.query;
+    const { from, to, depart, arrival, airlineCode, sortBy, page } = req.query;
 
     let baseURL = 'https://api.schiphol.nl/public-flights/flights';
 
@@ -225,8 +217,8 @@ router.get("/search", async (req, res) => {
       params.toDateTime = dateConvert(arrival);
     }
 
-    if (iataCode) {
-      params.airline = iataCode;
+    if (airlineCode) {
+      params.airline = airlineCode;
     }
 
     const response = await axios.get(baseURL, {
@@ -272,5 +264,6 @@ router.get("/search", async (req, res) => {
   }
 });
 
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 export default router;
