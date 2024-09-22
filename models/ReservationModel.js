@@ -36,6 +36,8 @@ const ReservationSchema = new Schema({
     prefixIATA: { type: String },
     prefixICAO: { type: String },
     airlineCode: { type: Number },
+    destinationCity: { type: String },
+    departureCity: { type: String },
     publicEstimatedOffBlockTime: { type: String },
     publicFlightState: {
         flightStates: [{ type: String }]

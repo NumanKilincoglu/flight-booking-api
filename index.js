@@ -2,7 +2,7 @@ import express from "express";
 
 import bodyParser from "body-parser";
 import FlightRoutes from './routes/FlightRoutes.js';
-import ReservationRoutes from './routes/ReservationRoutes.js';
+import ReservationRoutes from './routes/BookingRoutes.js';
 import cors from 'cors';
 import morgan from "morgan";
 import dotenv from 'dotenv';
@@ -22,7 +22,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use('/api/reservation', ReservationRoutes);
+app.use('/api/booking', ReservationRoutes);
 app.use('/api/flights', FlightRoutes);
 
 app.listen(port, () => {

@@ -4,3 +4,5 @@ export function dateConvert(dateStr) {
     const date = new Date(dateStr);
     return date.toISOString().split('.')[0];
 }
+
+export const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
