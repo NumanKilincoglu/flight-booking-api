@@ -1,0 +1,5 @@
+APP_ID=f152d8e0
+KEY=8738d27123ddf3fa810a8c084cc35583
+RESOURCE_VERSION=v4
+MONGO_URL=mongodb+srv://flight-booking-app:xzPDbHST8lLIflp2@flight-booking-app.poqkk.mongodb.net/?retryWrites=true&w=majority&appName=flight-booking-app
+PROD=true
